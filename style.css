@@ -3,6 +3,7 @@
 COMMON
 
 ****************/
+
 body{
     font-family:"monospace",sans-serif;
 }
@@ -15,6 +16,26 @@ body{
     font-size: 20px;
     font-weight: bold;
 }
+p{
+    font-size: 14px;
+    color: rgb(71, 4, 4);
+}
+
+h2{
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+
+a.font-pink{
+    color: #fa40fa !important;
+} 
+
+a.font-black{
+    color: #000 !important;
+} 
+
 /*****************
 
 ABOUT
@@ -58,3 +79,24 @@ font-size: 19px;
 #about .icons a{
     color: rgb(44, 42, 42);
 } 
+
+/***************************
+
+PROJECT
+
+***************************/
+#project{
+    margin: 60px auto;
+    width:80% ;
+}
+
+#project h2{
+    text-align: center;
+}
+#project .card img{
+    width: 100%;
+}
+
+#project .card-title{
+    font-weight: bold;
+}
