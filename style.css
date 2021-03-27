@@ -9,8 +9,10 @@ body{
 }
 
 .font-primary{
-    color: #00abae
+    color: rgb(96, 249, 208);
+    text-decoration: underline;
 }
+
 
 .title-icon{
     font-size: 20px;
@@ -28,12 +30,14 @@ h2{
 }
 
 
-a.font-pink{
-    color: #fa40fa !important;
+a.font-crimson{
+    color:crimson !important;
+    font-weight: bold;
 } 
 
 a.font-black{
     color: #000 !important;
+    font-weight: bold;
 } 
 
 /*****************
@@ -45,6 +49,7 @@ ABOUT
     margin: 60px auto;
     max-width: 400px;
     text-align: center;
+    font-weight:bold;
 }
 
 #about img {
@@ -55,20 +60,25 @@ ABOUT
 
 #about .name{
 font-size: 19px;
+color: blue;
+font-weight: bold;
+font-style: Arial ;
 }
 #about .vocation{
     font-size: 17px;
-    color: blue;
+    color:rgb(133,132,123);
     margin-bottom: 10px;
 }
 #about .skills{
     font-size: 14px;
-    color: blueviolet;
+    color: rgb(96, 249, 208);
     margin-bottom: 10px;
+    font-weight: semi-bold;
 }
 #about .email{
     margin-top: 14px;
     font-size:14px ;
+    font-weight: bold;
 }
 
 #about .icons{
@@ -85,18 +95,34 @@ font-size: 19px;
 PROJECT
 
 ***************************/
-#project{
+#projects{
     margin: 60px auto;
     width:80% ;
+    color:rgb(236,126,134);
 }
 
-#project h2{
+#projects h2{
+    text-align: center;
+    text-decoration: underline;
+}
+#projects .card img{
+    width: 120%;
+}
+
+#projects .card-title{
+    font-weight: bold;
+    color: rgb(168,19,212);
     text-align: center;
 }
-#project .card img{
-    width: 100%;
+
+#projects .card-text{
+    color: rgb(71, 4, 4);
+    text-align: center;
 }
 
-#project .card-title{
-    font-weight: bold;
+.btn-secondary{
+    margin-left: 250px;
+    margin-right: -230px;
+    background-color:chocolate;
+    color:black;
 }
